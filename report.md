@@ -38,6 +38,10 @@ HAVING orders_fulfilled >= 20 -- Minimum volume for statistical significance
 ORDER BY avg_delivery_days ASC -- Fastest first
 LIMIT 20;
 ```
+<p align="center">
+  <img src="https://github.com/chia-chang/sql-business-analytics/raw/main/outputs/1_seller_delivery_performance.png" width="780"/>
+</p>
+
 
 ### Key Findings
 
