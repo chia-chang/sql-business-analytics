@@ -2,6 +2,8 @@
 
 A collection of SQL analyses addressing real-world business questions across marketing, operations, and customer service using Brazilian e-commerce data.
 
+Read the full analysis in [`report.md`](report.md) to see the complete business context, SQL queries, findings, and recommendations.
+
 ## Overview
 
 This project demonstrates how to translate business requests into actionable SQL queries and insights. Each scenario reflects the kind of ad hoc analysis a data analyst handles regularly—from evaluating seller performance to measuring campaign effectiveness.
@@ -29,6 +31,6 @@ Ranks cities by total revenue in 2017 to help regional sales focus efforts where
 ### Scenario 5: Discount Campaign Impact
 Measures whether a week-long electronics discount campaign increased orders and revenue, comparing results before, during, and after the promotion.
 
-Read the full analysis in [`REPORT.md`](REPORT.md) to see the complete business context, SQL queries, findings, and recommendations.
+Read the full analysis in [`report.md`](report.md) to see the complete business context, SQL queries, findings, and recommendations.
 
 *This portfolio demonstrates analytical thinking and SQL skills developed through hands-on practice with real-world business scenarios.*
