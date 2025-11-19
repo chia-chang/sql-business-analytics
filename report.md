@@ -39,7 +39,7 @@ ORDER BY avg_delivery_days ASC -- Fastest first
 LIMIT 20;
 ```
 <p align="center">
-  <img src="https://github.com/chia-chang/sql-business-analytics/raw/main/outputs/1_seller_delivery_performance.png" width="780"/>
+  <img src="https://github.com/chia-chang/sql-business-analytics/raw/main/outputs/1_Seller_Delivery_Performance.png" width="780"/>
 </p>
 
 
@@ -98,6 +98,9 @@ GROUP BY c.customer_city
 HAVING total_orders>200
 ORDER BY late_pct DESC;
 ```
+<p align="center">
+  <img src="https://github.com/chia-chang/sql-business-analytics/raw/main/outputs/2_Late_Delivery_Analysis.png" width="715"/>
+</p>
 
 ### Key Findings
 
@@ -143,6 +146,9 @@ FROM q1_customer_spending
 ORDER BY total_spend DESC
 LIMIT 10;
 ```
+<p align="center">
+  <img src="https://github.com/chia-chang/sql-business-analytics/raw/main/outputs/3_Top_High-Value_Customers.png" width="888"/>
+</p>
 
 ### Key Findings
 
@@ -173,6 +179,9 @@ GROUP BY c.customer_city, c.customer_state
 ORDER BY total_revenue DESC
 LIMIT 5;
 ```
+<p align="center">
+  <img src="https://github.com/chia-chang/sql-business-analytics/raw/main/outputs/4_City_Sales_Rankings.png" width="395"/>
+</p>
 
 ### Key Findings
 
@@ -239,6 +248,7 @@ ORDER BY
         WHEN 'Post-campaign' THEN 3
     END;
 ```
+
 
 ### Key Findings
 
