@@ -248,7 +248,9 @@ ORDER BY
         WHEN 'Post-campaign' THEN 3
     END;
 ```
-
+<p align="center">
+  <img src="https://github.com/chia-chang/sql-business-analytics/raw/main/outputs/5_Discount_Campaign_Impact.png" width="800"/>
+</p>
 
 ### Key Findings
 
